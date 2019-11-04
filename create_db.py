@@ -9,7 +9,7 @@ from app.models import db
 from populate_db import populate
 from tests.all.integration.auth_helper import create_super_admin
 
-
+# create function 
 def create_default_user(email, password):
     print("Your login is 'super_admin'.")
     if not email:
